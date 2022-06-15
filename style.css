@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "IBM Plex Sans";
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 20vh;
+}
+
+.barra-imagem {
+    background-color: #000000;
+    position: absolute;
+    left: 464px;
+    top: 10px;
+}
+
+section h1 {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+
+.perfis {
+    margin-top: 20px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfis-espaco1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius:8px;
+    cursor: pointer;
+    width: 165px;
+    height: 165px;
+}
+
+.perfis-espaco1>img {
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    
+    
+
+}
+.perfis-espaco1>img:hover{
+
+   border: 2px solid #fff;
+   border-radius: 8px;
+   
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button>button {
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    width: 206px;
+    height: 50px;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    background-color: #222;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.image{
+opacity: 1;
+transition: .5 ease;
+backface-visibility:hidden;
+
+}
+
